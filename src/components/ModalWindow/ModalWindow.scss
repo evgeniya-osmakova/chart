@@ -1,0 +1,29 @@
+.modal {
+  &__title {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.modal-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.modal-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 680px;
+  height: 120px;
+  z-index: 11;
+  background: $main-color;
+}
+

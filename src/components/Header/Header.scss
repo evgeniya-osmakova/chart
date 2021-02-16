@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background: $main-color;
+
+  &__title {
+    margin: 0 20px;
+    color: #34ABE0;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,22 @@
+node_modules/
+dist
+.nuxt
+coverage
+.idea
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.*.local
+
+# Service worker
+sw.*
+
+# API tests
+*.http
